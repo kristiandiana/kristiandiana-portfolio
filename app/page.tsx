@@ -24,16 +24,16 @@ export default function Home() {
             Github: {" "}
             <a
               className="text-blue-600 underline"
-              href="https://github.com">
-              @johndoe
+              href="https://github.com/kristiandiana">
+              @kristiandiana
             </a>
           </li>
           <li>
             LinkedIn: {" "}
             <a
               className="text-blue-600 underline"
-              href="https://linkedin.com">
-              @johndoe
+              href="https://www.linkedin.com/in/kristian-diana-645984246/">
+              @kristiandiana
             </a>
           </li>
         </ul>
