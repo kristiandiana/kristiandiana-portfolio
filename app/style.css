@@ -1,0 +1,216 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.opening {
+    font-family: 'Arial', monospace;
+    border: 0px;
+  background: #023e8a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    padding: 0px;
+
+    
+
+}
+.opening__wrapper {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 80%;
+    margin-bottom: 30px;
+
+}
+
+.opening__card {
+
+    background-color: white;
+	margin: 30px;
+	margin-bottom: 0px;
+	height: 250px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.opening h1 {
+    padding: 10px;
+    justify-content: center;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: right;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 20%;
+    position: fixed;
+  }
+  
+  .right {
+    width: 70%;
+  } 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  ul.contacts {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display:block;
+    justify-content: space-around;
+  }
+
+  .contacts__overall__main {
+    font-family: 'Arial', monospace;
+    border: 0px;
+    background-color: #023e8a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    padding: 0px;
+    
+
+
+}
+
+h2 {
+    color:#023e8a;
+}
+
+  .contacts__overall {
+    background-color: #023e8a;
+	margin: 30px;
+	height: 120px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+  .contacts {
+    border-radius: 3px;
+    font-family: 'Arial', monospace;
+    border: 0px;
+  
+  background: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 60%;
+    padding: 0px;
+  }
+  .contacts h1 {
+	font-weight: normal;
+  color: #000000;
+  padding: 0px;
+  padding-bottom: 10px;
+	font-size: 2rem;
+}
+
+.contacts__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	margin-bottom: 30px;
+}
+
+
+
+.contacts__card {
+    border-radius: 30px;
+	font-family: 'Courier New', monospace;
+	margin: 30px;
+	margin-bottom: 0px;
+	height: 10px;
+	width: 60px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+	color:#000000;
+	background-color:white;
+	/*background-image: linear-gradient(to right, #A3BCB6 0%,#3C403D 100%);*/
+	transition: 0.3s ease-in;
+}
+.site__section p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contacts__btn {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+.contacts__card button {
+	color: black;
+	padding: 10px 10%;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background: #e9ecef;
+	font-size: 1rem;
+}
+a:hover{
+    cursor: pointer;
+    color:#023e8a;
+    text-decoration: underline;
+}
+
+.contacts__btn button a:hover {
+	cursor: pointer;
+  color:#023e8a;
+}
+
+.contacts__card:hover{
+	transform: scale(1.075);
+	transition: 0.3s ease-in;
+	cursor: pointer;
+}
+
+
+.hidden {
+    opacity: 1;
+}
+
+.show {
+    opacity: 1;
+}
+
+
+.site__section {
+    margin-bottom: 50px;
+}
