@@ -85,9 +85,9 @@ export default function Home() {
             <h3 className="text-3xl text-bold"><a href="https://devpost.com/software/news-shield">News Shield</a></h3>
             <p>News shield was a project that myself and 3 fellow SHAD alumni
               worked on together at Hack the North 2022. This was one of first
-              times that I was introduced to the concept of API's and learning
+              times that I was introduced to the concept of APIs and learning
               how to use them. The motive behind News Shield is to keep people
-              from entering "echo-chambers" in the media they consume.
+              from entering echo-chambers in the media they consume.
             </p>
           </div>
 
@@ -107,7 +107,7 @@ export default function Home() {
         <div className="site__section" id="about">
           <h2 className="text-4xl">About Me!</h2>
           <p>
-            Now that you have seen some of my "professional" side...
+            Now that you have seen some of my profesional side...
             I am sure you would love to know what I get up to in my free time!
             <br/><br/><br/>
             Fitness is something that is very important to me, which has led
