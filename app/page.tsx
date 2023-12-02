@@ -112,7 +112,7 @@ export default function Home() {
             <br/><br/><br/>
             Fitness is something that is very important to me, which has led
             to much of my time being spent in the gym. I used to be a competitive
-            gymnast but have now transitioned to golf. There's nothing quite like
+            gymnast but have now transitioned to golf. There is nothing quite like
             a casual round of golf with the boys. 
             <Image
           src={golf}
